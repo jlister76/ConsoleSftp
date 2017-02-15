@@ -13,10 +13,10 @@ class Example
             SessionOptions sessionOptions = new SessionOptions
             {
                 Protocol = Protocol.Sftp,
-                HostName = "207.91.155.52",
-                UserName = "atmosftp",
-                Password = "0Atmosftpc0",
-                SshHostKeyFingerprint = "ssh-dss 1024 f5:85:76:27:12:0c:de:0b:3b:ad:f9:e0:f2:b5:82:4c"
+                HostName = "xxx.xx.xxx.xx",
+                UserName = "xxxx",
+                Password = "xxxx",
+                SshHostKeyFingerprint = "ssh-dss 1024 xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx"
             };
 
             using (Session session = new Session())
